@@ -1,0 +1,19 @@
+<div class="row">
+
+
+    {{#each Data}}
+
+    <div class="col-md-4">
+
+        <div class="card border-light">
+            <img src="{{images.[2].url}}" class="card-img-top" alt="">
+            <div class="card-body">
+
+                <p>{{name}}</p>
+                <a href="/album-view/{{id}}" class="btn btn-danger">View Albums</a>
+            </div>
+        </div>
+
+    </div>
+    {{/each}}
+</div>
